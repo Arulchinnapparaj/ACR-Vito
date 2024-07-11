@@ -1,0 +1,166 @@
+
+
+#nav1{
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+#navbarSupportedContent a{
+    color: black;
+    font-family: serif;
+    letter-spacing: 1px;
+   
+}   
+section{
+  justify-content: center;
+  align-items: center;
+}
+ 
+.navbar-brand b{
+  color: lightseagreen;
+}
+#navbarSupportedContent ul li a{
+  color: white;
+}
+#navbarSupportedContent ul li a:hover{
+  border-bottom: 2px solid lightseagreen;
+}
+#navim{
+ 
+  padding: 200px;
+  font-weight: bold;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url(navim.jpg);
+  background-repeat: no-repeat; 
+    background-size: cover; 
+  
+}
+#navim h1{
+  color: aqua;
+  font-size: 100px;
+  font-family: serif;
+  text-align: center;
+
+}
+
+#exampleInputEmail1{
+  width: 500px;
+
+}
+#exampleInputPassword1{
+  width:500px ;
+}
+.dropdown-menu a:hover{
+  color: white;
+  background-color: black;
+}
+#of{
+  height: 500px;
+ overflow-y: scroll;
+}
+
+
+/**About**/
+
+#about {
+  background-color: lightgrey;
+  padding:15px;
+}
+#about h1{
+  font-family: serif;
+  font-size: 40px;
+  font-weight: 600;
+}
+ 
+#P2 P{
+  padding-left: 20PX;
+}
+
+/**History**/
+
+#history{
+  padding: 15px;
+}
+#about .rows{
+  display: flex;
+}
+#history .his{
+  display: flex;
+}
+
+@media screen and (max-width:800px){
+  #about .rows{
+  flex-direction: column;
+  align-items: center;
+  }
+}
+@media screen and (max-width:999px){
+  #history .his{
+  flex-direction: column;
+  align-items: center;
+  }
+}
+
+/**Topcars**/
+
+ #topcars{
+  background-color:azure;
+ }
+#topcars .card p{
+  text-align: center;
+  text-transform: uppercase;
+  
+  
+}
+#topcars .card .p1{
+  font-family: serif;
+  font-weight: bold;
+  
+}
+
+#topcars .car1{
+ margin-left: 190px;
+ 
+}
+#topcars .car1{
+ display: flex;
+}
+#topcars .card img{
+
+  border-radius: 10px;
+
+}
+#topcars .card{
+  margin-right:40px ;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 15px 20px 20px rgba(0,0,0,0.3),
+    inset 5px 5px 5px azure;
+}
+
+@media screen and (max-width:1000px){
+  #topcars .car1{
+   margin-left: 0px;
+  }
+}
+@media screen and (max-width:720px){
+  #topcars .car1{
+   flex-direction: column;
+   align-items: center;
+  }
+}
+
+#msg{
+  background-color: lightcyan;
+}
+/**footer**/
+footer{
+  align-items: center;
+  width:100%;
+  height: 40px;
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+  padding: 8px;
+}
+
+
